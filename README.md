@@ -1,410 +1,103 @@
-Contribution: 2021-01-14 20:00
 
-Contribution: 2021-01-24 20:00
+<p align="center"><a href="https://github.com/kooshkestani/shop" target="_blank"><img width="128" src="https://cdn.pbrd.co/images/HVhTFEa.png"></a></p>
 
-Contribution: 2021-01-24 20:01
+<p align="center">
+<a href="https://travis-ci.org/the-control-group/voyager"><img src="https://travis-ci.org/the-control-group/voyager.svg?branch=master" alt="Build Status"></a>
+<a href="https://styleci.io/repos/72069409/shield?style=flat"><img src="https://styleci.io/repos/72069409/shield?style=flat" alt="Build Status"></a>
+<a href="https://packagist.org/packages/tcg/voyager"><img src="https://poser.pugx.org/tcg/voyager/downloads.svg?format=flat" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/tcg/voyager"><img src="https://poser.pugx.org/tcg/voyager/v/stable.svg?format=flat" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/tcg/voyager"><img src="https://poser.pugx.org/tcg/voyager/license.svg?format=flat" alt="License"></a>
+<a href="https://github.com/larapack/awesome-voyager"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Voyager"></a>
+</p>
 
-Contribution: 2021-01-28 20:00
+# **E**commerce - Online Shopping Persian -rtl-ltr
+Made with ❤️ by [shop](https://github.com/kooshkestani/shop)
 
-Contribution: 2021-02-01 20:00
+![shop Screenshot](public/storage/readme/home.png)
+![shop Screenshot](public/storage/readme/product.png)
+![shop Screenshot](public/storage/readme/profile.png)
+![shop Screenshot](public/storage/readme/voyager.png)
 
-Contribution: 2021-02-03 20:00
+Website & Documentation: https://github.com/kooshkestani/shop
 
-Contribution: 2021-02-03 20:01
+Video Tutorial Here: https://github.com/kooshkestani/shop
 
-Contribution: 2021-02-15 20:00
+Join our Slack chat: https://github.com/kooshkestani/shop
 
-Contribution: 2021-02-15 20:01
 
-Contribution: 2021-02-16 20:00
+<hr>
 
-Contribution: 2021-02-16 20:01
+Laravel Admin & BREAD System (Browse, Read, Edit, Add, & Delete), supporting Laravel 5.4, 5.5, 5.6 and 5.7!
 
-Contribution: 2021-02-18 20:00
+## Installation Steps
 
-Contribution: 2021-02-18 20:01
+### 1. Require the Package
 
-Contribution: 2021-02-20 20:00
+After creating your new Laravel application you can include the Voyager package with the following command: 
 
-Contribution: 2021-02-20 20:01
+```bash
+composer install
+```
 
-Contribution: 2021-02-28 20:00
+### 2. Add the DB Credentials & APP_URL
 
-Contribution: 2021-02-28 20:01
+Next make sure to create a new database and add your database credentials to your .env file:
 
-Contribution: 2021-03-05 20:00
+import db_shop.sql in php my admin 
+```
+DB_HOST=localhost
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+```
 
-Contribution: 2021-03-08 20:00
+You will also want to update your website URL inside of the `APP_URL` variable inside the .env file:
 
-Contribution: 2021-03-14 20:00
+```
+APP_URL=http://localhost:8000
+```
 
-Contribution: 2021-03-14 20:01
+> Troubleshooting: **Specified key was too long error**. If you see this error message you have an outdated version of MySQL, use the following solution: https://laravel-news.com/laravel-5-4-key-too-long-error
 
-Contribution: 2021-03-17 20:00
+And we're all good to go!
 
-Contribution: 2021-03-18 20:00
+Start up a local development server with `php artisan serve` And, visit [http://localhost:8000/admin](http://localhost:8000/admin).
 
-Contribution: 2021-03-20 20:00
+###  Feature
 
-Contribution: 2021-03-22 20:00
+1-Voyager Admin Panel
 
-Contribution: 2021-03-24 20:00
+2-Algolia Search and Custom Search
 
-Contribution: 2021-03-28 20:00
+3-MDBoostrap 
 
-Contribution: 2021-03-28 20:01
+4-Panel Customer
 
-Contribution: 2021-03-29 20:00
+5-Support Multi Language
 
-Contribution: 2021-03-30 20:00
+...
 
-Contribution: 2021-04-01 20:00
 
-Contribution: 2021-04-02 20:00
+## Creating an Admin User
 
-Contribution: 2021-04-03 20:00
+If you did go ahead with the dummy data, a user should have been created for you with the following login credentials:
 
-Contribution: 2021-04-06 20:00
+>**email:** `admin@admin.com`   
+>**password:** `password`
 
-Contribution: 2021-04-06 20:01
+NOTE: Please note that a dummy user is **only** created if there are no current users in your database.
 
-Contribution: 2021-04-07 20:00
+If you did not go with the dummy user, you may wish to assign admin privileges to an existing user.
+This can easily be done by running this command:
 
-Contribution: 2021-04-07 20:01
+```bash
+php artisan voyager:admin your@email.com
+```
 
-Contribution: 2021-04-08 20:00
+If you did not install the dummy data and you wish to create a new admin user you can pass the `--create` flag, like so:
 
-Contribution: 2021-04-08 20:01
+```bash
+php artisan voyager:admin your@email.com --create
+```
 
-Contribution: 2021-04-09 20:00
-
-Contribution: 2021-04-09 20:01
-
-Contribution: 2021-04-12 20:00
-
-Contribution: 2021-04-12 20:01
-
-Contribution: 2021-04-14 20:00
-
-Contribution: 2021-04-21 20:00
-
-Contribution: 2021-04-22 20:00
-
-Contribution: 2021-04-22 20:01
-
-Contribution: 2021-04-23 20:00
-
-Contribution: 2021-04-23 20:01
-
-Contribution: 2021-04-28 20:00
-
-Contribution: 2021-04-29 20:00
-
-Contribution: 2021-05-05 20:00
-
-Contribution: 2021-05-09 20:00
-
-Contribution: 2021-05-28 20:00
-
-Contribution: 2021-06-01 20:00
-
-Contribution: 2021-06-02 20:00
-
-Contribution: 2021-06-06 20:00
-
-Contribution: 2021-06-09 20:00
-
-Contribution: 2021-06-10 20:00
-
-Contribution: 2021-06-10 20:01
-
-Contribution: 2021-06-12 20:00
-
-Contribution: 2021-06-15 20:00
-
-Contribution: 2021-06-19 20:00
-
-Contribution: 2021-06-20 20:00
-
-Contribution: 2021-06-22 20:00
-
-Contribution: 2021-06-24 20:00
-
-Contribution: 2021-06-24 20:01
-
-Contribution: 2021-06-26 20:00
-
-Contribution: 2021-06-26 20:01
-
-Contribution: 2021-06-28 20:00
-
-Contribution: 2021-06-30 20:00
-
-Contribution: 2021-07-03 20:00
-
-Contribution: 2021-07-04 20:00
-
-Contribution: 2021-07-04 20:01
-
-Contribution: 2021-07-10 20:00
-
-Contribution: 2021-07-11 20:00
-
-Contribution: 2021-07-11 20:01
-
-Contribution: 2021-07-15 20:00
-
-Contribution: 2021-07-17 20:00
-
-Contribution: 2021-07-17 20:01
-
-Contribution: 2021-07-18 20:00
-
-Contribution: 2021-07-20 20:00
-
-Contribution: 2021-07-20 20:01
-
-Contribution: 2021-07-27 20:00
-
-Contribution: 2021-07-30 20:00
-
-Contribution: 2021-07-30 20:01
-
-Contribution: 2021-08-02 20:00
-
-Contribution: 2021-08-02 20:01
-
-Contribution: 2021-08-03 20:00
-
-Contribution: 2021-08-03 20:01
-
-Contribution: 2021-08-06 20:00
-
-Contribution: 2021-08-13 20:00
-
-Contribution: 2021-08-13 20:01
-
-Contribution: 2021-08-14 20:00
-
-Contribution: 2021-08-20 20:00
-
-Contribution: 2021-08-27 20:00
-
-Contribution: 2021-08-28 20:00
-
-Contribution: 2021-08-30 20:00
-
-Contribution: 2021-08-31 20:00
-
-Contribution: 2021-08-31 20:01
-
-Contribution: 2021-09-02 20:00
-
-Contribution: 2021-09-07 20:00
-
-Contribution: 2021-09-16 20:00
-
-Contribution: 2021-09-23 20:00
-
-Contribution: 2021-09-23 20:01
-
-Contribution: 2021-09-25 20:00
-
-Contribution: 2021-09-25 20:01
-
-Contribution: 2021-09-29 20:00
-
-Contribution: 2021-09-29 20:01
-
-Contribution: 2021-09-30 20:00
-
-Contribution: 2021-10-01 20:00
-
-Contribution: 2021-10-07 20:00
-
-Contribution: 2021-10-07 20:01
-
-Contribution: 2021-10-09 20:00
-
-Contribution: 2021-10-27 20:00
-
-Contribution: 2021-10-27 20:01
-
-Contribution: 2021-11-05 20:00
-
-Contribution: 2021-11-08 20:00
-
-Contribution: 2021-11-08 20:01
-
-Contribution: 2021-11-14 20:00
-
-Contribution: 2021-11-14 20:01
-
-Contribution: 2021-11-15 20:00
-
-Contribution: 2021-11-21 20:00
-
-Contribution: 2021-11-24 20:00
-
-Contribution: 2021-11-24 20:01
-
-Contribution: 2021-11-25 20:00
-
-Contribution: 2021-11-29 20:00
-
-Contribution: 2021-11-29 20:01
-
-Contribution: 2021-12-05 20:00
-
-Contribution: 2021-12-07 20:00
-
-Contribution: 2021-12-07 20:01
-
-Contribution: 2021-12-18 20:00
-
-Contribution: 2021-12-19 20:00
-
-Contribution: 2021-12-19 20:01
-
-Contribution: 2021-12-28 20:00
-
-Contribution: 2021-12-28 20:01
-
-Contribution: 2022-01-02 20:00
-
-Contribution: 2022-01-04 20:00
-
-Contribution: 2022-01-04 20:01
-
-Contribution: 2022-01-05 20:00
-
-Contribution: 2022-01-13 20:00
-
-Contribution: 2022-01-25 20:00
-
-Contribution: 2022-01-25 20:01
-
-Contribution: 2022-01-27 20:00
-
-Contribution: 2022-01-29 20:00
-
-Contribution: 2022-01-30 20:00
-
-Contribution: 2022-01-30 20:01
-
-Contribution: 2022-02-01 20:00
-
-Contribution: 2022-02-03 20:00
-
-Contribution: 2022-02-03 20:01
-
-Contribution: 2022-02-05 20:00
-
-Contribution: 2022-02-05 20:01
-
-Contribution: 2022-02-08 20:00
-
-Contribution: 2022-02-16 20:00
-
-Contribution: 2022-02-16 20:01
-
-Contribution: 2022-02-20 20:00
-
-Contribution: 2022-02-21 20:00
-
-Contribution: 2022-02-21 20:01
-
-Contribution: 2022-02-27 20:00
-
-Contribution: 2022-02-27 20:01
-
-Contribution: 2022-02-28 20:00
-
-Contribution: 2022-02-28 20:01
-
-Contribution: 2022-03-03 20:00
-
-Contribution: 2022-03-03 20:01
-
-Contribution: 2022-03-04 20:00
-
-Contribution: 2022-03-09 20:00
-
-Contribution: 2022-03-15 20:00
-
-Contribution: 2022-03-15 20:01
-
-Contribution: 2022-03-18 20:00
-
-Contribution: 2022-03-18 20:01
-
-Contribution: 2022-03-19 20:00
-
-Contribution: 2022-03-19 20:01
-
-Contribution: 2022-03-20 20:00
-
-Contribution: 2022-03-20 20:01
-
-Contribution: 2022-03-26 20:00
-
-Contribution: 2022-03-26 20:01
-
-Contribution: 2022-03-29 20:00
-
-Contribution: 2022-04-01 20:00
-
-Contribution: 2022-04-01 20:01
-
-Contribution: 2022-04-02 20:00
-
-Contribution: 2022-04-03 20:00
-
-Contribution: 2022-04-11 20:00
-
-Contribution: 2022-04-12 20:00
-
-Contribution: 2022-04-12 20:01
-
-Contribution: 2022-04-14 20:00
-
-Contribution: 2022-04-14 20:01
-
-Contribution: 2022-04-15 20:00
-
-Contribution: 2022-04-19 20:00
-
-Contribution: 2022-04-19 20:01
-
-Contribution: 2022-04-22 20:00
-
-Contribution: 2022-04-22 20:01
-
-Contribution: 2022-04-24 20:00
-
-Contribution: 2022-05-04 20:00
-
-Contribution: 2022-05-12 20:00
-
-Contribution: 2022-05-13 20:00
-
-Contribution: 2022-05-13 20:01
-
-Contribution: 2022-05-18 20:00
-
-Contribution: 2022-05-18 20:01
-
-Contribution: 2022-05-20 20:00
-
-Contribution: 2022-05-23 20:00
-
-Contribution: 2022-05-24 20:00
-
-Contribution: 2022-05-24 20:01
-
-Contribution: 2022-05-26 20:00
-
-Contribution: 2022-05-26 20:01
-
-Contribution: 2022-05-27 20:00
-
+And you will be prompted for the user's name and password.

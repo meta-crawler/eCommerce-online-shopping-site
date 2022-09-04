@@ -1,0 +1,20 @@
+@import url('font.css');
+
+body{
+    font-family: "Open Sans"!important;
+    text-align: right;
+}
+table , input,textarea{
+    direction: rtl;
+}
+label{
+    left: initial !important;
+    right: 0 !important;
+}
+
+/*i{*/
+    /*text-align: right !important;*/
+/*}*/
+#dtBasicExample_length,#dtBasicExample_info{
+    float: left;    
+}
